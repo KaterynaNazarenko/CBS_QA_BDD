@@ -1,11 +1,10 @@
 package org.cbs.qa.stepDefinitions;
 
-
-import cbsqa.pages.LoginPage;
-import cbsqa.utils.Setup;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.cbs.qa.pages.LoginPage;
+import org.cbs.qa.utils.Setup;
 
 import java.io.IOException;
 

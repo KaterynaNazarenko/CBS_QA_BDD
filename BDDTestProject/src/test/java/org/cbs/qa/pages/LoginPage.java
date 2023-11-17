@@ -5,7 +5,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
 
-import static cbsqa.pages.Locators.*;
+import static org.cbs.qa.pages.Locators.*;
+
 
 public class LoginPage extends BasePage {
 
