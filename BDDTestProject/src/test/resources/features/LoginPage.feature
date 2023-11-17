@@ -8,4 +8,3 @@ Feature: LoginPage
     And   User enter "qwerty" in Password field
     Then  User click on Login Button
     And  My Account link is displayed
-
