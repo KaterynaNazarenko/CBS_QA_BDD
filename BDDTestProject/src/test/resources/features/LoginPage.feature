@@ -14,3 +14,9 @@ Feature: LoginPage
     And   User enter "qwerty" in Password field
     Then  User click on Login Button
     And  Your username or password was incorrect alert is displayed
+
+  Scenario: Authorization without password
+    And   User enter "oc@1.ua" in Email Adress field
+    And   User leave empty Password field
+    Then  User click on Login Button
+    And  Your username or password was incorrect alert is displayed
