@@ -26,7 +26,7 @@ public class MyStepdefs {
         loginPage.goToLoginPage();
     }
 
-    @And("User enter {string} in Email Adress field")
+    @And("User enter {string} in Email Address field")
     public void userEnterInEmailAdressField(String emailUser) {
         loginPage.userEnterInEmailAdressField(emailUser);
     }
