@@ -1,0 +1,8 @@
+Scenario: Register a new user
+Given the user is on the registration page
+When the user enters the name "John Doe"
+And the user enters the email address "johndoe@example.com"
+And the user enters the password "test_password"
+And the user confirms the password "test_password"
+And the user clicks the "Register" button
+Then the user should be registered and redirected to the home page of the website
